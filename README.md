@@ -68,3 +68,16 @@ A Python script to automate the process of saving regions from DS9 images, with 
 4. Run the script:
    ```bash
    python ds9_region_saver.py
+
+
+
+
+You can install the package directly from GitHub:
+
+```bash
+pip install git+https://github.com/JustinPerea/DS9ImageSaver.git
+
+git clone https://github.com/JustinPerea/DS9ImageSaver.git
+cd DS9ImageSaver
+
+pip install -e .
