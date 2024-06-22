@@ -45,6 +45,7 @@ A Python script to automate the process of saving regions from DS9 images, with 
    ...
 
 3. Update the file paths in the script.
+   
    For example:
    ```bash
    fits_files = [
@@ -63,3 +64,7 @@ A Python script to automate the process of saving regions from DS9 images, with 
    source_file = '/path/to/pan_zoom.txt'
    name_file = '/path/to/name.txt'
    output_dir = 'images/'
+
+4. Run the script:
+   ```bash
+   python ds9_region_saver.py
