@@ -37,3 +37,28 @@ A Python script to automate the process of saving regions from DS9 images, with 
    56.67657665 68.160590675005 2.6687305341091236
    56.68005265 68.036525675005 3.1234567890123456
    ...
+2. Prepare the name file (`name.txt`) with the following format:
+   ```text
+   Name RA Dec
+   034642.35+680938.2 56.67657665 68.160590675005
+   034643.19+680211.6 56.68005265 68.036525675005
+   ...
+
+3. Update the file paths in the script. For example:
+   ```bash
+   fits_files = [
+    '/path/to/f606w_drc.fits',
+    '/path/to/f435w_drc.fits'
+   ]
+   colors = ['green', 'blue']  # Colors for the FITS files
+   scaling_params = [
+       {'scaling': 'log', 'scale_min': 0, 'scale_max': 1.6e6, 'contrast': 3.3, 'bias': 0.25},
+       {'scaling': 'log', 'scale_min': 0, 'scale_max': 740000, 'contrast': 6.6, 'bias': 0.12}
+   ]
+   region_files = [
+       '/path/to/xray99_hst.reg',
+       '/path/to/X_ray99_final_123sig.reg'
+   ]
+   source_file = '/path/to/pan_zoom.txt'
+   name_file = '/path/to/name.txt'
+   output_dir = 'images/'
