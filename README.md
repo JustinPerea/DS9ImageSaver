@@ -44,7 +44,8 @@ A Python script to automate the process of saving regions from DS9 images, with 
    034643.19+680211.6 56.68005265 68.036525675005
    ...
 
-3. Update the file paths in the script. For example:
+3. Update the file paths in the script.
+   For example:
    ```bash
    fits_files = [
     '/path/to/f606w_drc.fits',
