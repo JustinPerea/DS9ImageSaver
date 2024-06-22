@@ -33,6 +33,7 @@ A Python script to automate the process of saving regions from DS9 images, with 
 
 Prepare the source file (pan_zoom.txt) with the following format:
 
+'''text
 RA Dec Radius
 56.67657665 68.160590675005 2.6687305341091236
 56.68005265 68.036525675005 3.1234567890123456
