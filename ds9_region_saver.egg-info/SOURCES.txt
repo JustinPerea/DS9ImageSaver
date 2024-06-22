@@ -1,0 +1,7 @@
+setup.py
+ds9_region_saver/__init__.py
+ds9_region_saver/ds9_region_saver.py
+ds9_region_saver.egg-info/PKG-INFO
+ds9_region_saver.egg-info/SOURCES.txt
+ds9_region_saver.egg-info/dependency_links.txt
+ds9_region_saver.egg-info/top_level.txt
